@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaquaries.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portis_konst portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">portis konst</div>
+        <div>
+            <ul class="nav-links">
+                <li><a>About</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Contact me</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">portis konst</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                        <li><a onclick="toggleMenu()">About</a></li>
+                        <li><a onclick="toggleMenu()">Portfolio</a></li>
+                        <li><a onclick="toggleMenu()">Contact me</a></li>
+                </div>
+            </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="../images/profile_pic1.jpg" alt="Picture of an artist" id="profile_pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Philip Gadd</h1>
+            <p class="section__text__p2">artist, illustrator, ceramicist, born and raised in Uddevalla, Sweden.</p>
+
+            <div id="socials-container">
+                <img src="../images/insta_icon.png" alt="My Instagram profile"
+                class="icon insta" onclick="location.href='https://www.instagram.com/portis_konst'">
+                <img src="../images/email_icon.png" alt="My Email"
+                class="icon" onclick="location.href='https://www.instagram.com/portis_konst'">
+            </div>
+           
+        </div>
+        
+    </section>
+        
+    <script src="script.js"></script>
+</body>
+</html>
