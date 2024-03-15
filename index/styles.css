@@ -50,6 +50,7 @@ nav {
 a {
     text-decoration: none;
     text-decoration-color: wheat;
+    color: black;
 }
 
 a:hover {
